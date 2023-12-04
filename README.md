@@ -19,7 +19,7 @@ THEN the saved events persist
 
 ## Deployment
 
-Site: 
+Site: https://tjamesmcdonald.github.io/work-day-scheduler/
 
 Github Repo: https://github.com/tjamesmcdonald/work-day-scheduler
 
