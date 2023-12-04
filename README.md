@@ -1,6 +1,8 @@
 # work-day-scheduler
 A simple work day planner that conforms to the following criteria
 
+## Acceptance Criteria
+
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
@@ -15,5 +17,10 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
+## Deployment
 
+Site: 
 
+Github Repo: https://github.com/tjamesmcdonald/work-day-scheduler
+
+Screenshot: ![Alt text](<Assets/Screenshot 2023-12-04 181700.png>)
