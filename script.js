@@ -15,13 +15,38 @@ var hour17 = document.querySelector("#hour-17")
 
 saveBTN.on("click", function (event) {
   event.preventDefault()
-  console.log(event)
-localStorage.setItem("todoInput", todo.value)
+  todoInput = $(this).siblings("textarea").val().trim();
+  hour = $(this).parent().attr("id");
+localStorage.setItem(hour, todoInput)
 })
 
 $(function () {
-  var todoInput = localStorage.getItem("todoInput")
-  todo.textContent = todoInput
+  var todoInput9 = localStorage.getItem("hour-9")
+  $(hour9).children("textarea").text(todoInput9)
+
+  var todoInput10 = localStorage.getItem("hour-10")
+  $(hour10).children("textarea").text(todoInput10)
+
+  var todoInput11 = localStorage.getItem("hour-11")
+  $(hour11).children("textarea").text(todoInput11)
+
+  var todoInput12 = localStorage.getItem("hour-12")
+  $(hour12).children("textarea").text(todoInput12)
+
+  var todoInput13 = localStorage.getItem("hour-13")
+  $(hour13).children("textarea").text(todoInput13)
+
+  var todoInput14 = localStorage.getItem("hour-14")
+  $(hour14).children("textarea").text(todoInput14)
+
+  var todoInput15 = localStorage.getItem("hour-15")
+  $(hour15).children("textarea").text(todoInput15)
+
+  var todoInput16 = localStorage.getItem("hour-16")
+  $(hour16).children("textarea").text(todoInput16)
+
+  var todoInput17 = localStorage.getItem("hour-17")
+  $(hour17).children("textarea").text(todoInput17)
 })
 
 $('#currentDay').text(currentDay)
